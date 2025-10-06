@@ -11,9 +11,9 @@ from datetime import datetime
 import logging
 
 BOT_TOKEN = "8260791120:AAFoDJDs9Bzthp3MB_jJ1kkjEprTLxWt3fg"
-PHOTO_PATH = r"C:\Users\никита\Documents\Майнер\result.jpg"
-WIN_PHOTO_PATH = r"C:\Users\никита\Documents\Майнер\win.jpg"
-LOSE_PHOTO_PATH = r"C:\Users\никита\Documents\Майнер\lose.jpg"
+PHOTO_PATH = "result.jpg"
+WIN_PHOTO_PATH = "win.jpg"
+LOSE_PHOTO_PATH = "lose.jpg"
 CHANNEL_ID = "-1003120338447"
 SEND_BOT_TOKEN = "428680:AAyTMpIyLvcHY1qdZgclt1pumgUxpNd5U0z"
 ADMIN_ID = 6524423095
@@ -1077,25 +1077,32 @@ def handle_callback(call):
             "high"
         )
 
-    elif call.data.startswith("waiting_bet_darts"):
-        bet_amount = float(call.data.split("_")[3])
+    elif call.data == "game_darts_bet":
+        # Для дартса сразу запускаем игру со стандартной ставкой
         process_darts_game(
             get_or_create_user(chat_id, call.from_user.username),
             chat_id,
             call.from_user.username or "Игрок",
-            bet_amount
+            1.00  # Стандартная ставка $1
         )
 
-    elif call.data.startswith("waiting_bet_basketball"):
-        bet_amount = float(call.data.split("_")[3])
+    elif call.data == "game_basketball_bet":
+        # Для баскетбола сразу запускаем игру со стандартной ставкой
         process_basketball_game(
             get_or_create_user(chat_id, call.from_user.username),
             chat_id,
             call.from_user.username or "Игрок",
-            bet_amount
+            1.00  # Стандартная ставка $1
         )
 
-    elif call.data.startswith("waiting_bet_slots"):
+    elif call.data == "game_slots_bet":
+        # Для слотов сразу запускаем игру со стандартной ставкой
+        process_slots_game(
+            get_or_create_user(chat_id, call.from_user.username),
+            chat_id,
+            call.from_user.username or "Игрок",
+            1.00  # Стандартная ставка $1
+        )
         bet_amount = float(call.data.split("_")[3])
         process_slots_game(
             get_or_create_user(chat_id, call.from_user.username),
