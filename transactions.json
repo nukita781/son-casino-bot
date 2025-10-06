@@ -1,0 +1,420 @@
+{
+  "transactions": [
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "admin_add",
+      "amount": 5.0,
+      "details": "Админская накрутка",
+      "timestamp": "2025-10-06 02:24:56"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_win",
+      "amount": 0.27,
+      "details": "even_odd - Выпало: 2 (ЧЕТ)",
+      "timestamp": "2025-10-06 02:26:02"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_win",
+      "amount": 0.27,
+      "details": "high_low - Выпало: 5 (БОЛЬШЕ)",
+      "timestamp": "2025-10-06 02:26:18"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_win",
+      "amount": 0.27,
+      "details": "high_low - Выпало: 4 (БОЛЬШЕ)",
+      "timestamp": "2025-10-06 02:26:27"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_win",
+      "amount": 0.27,
+      "details": "high_low - Выпало: 5 (БОЛЬШЕ)",
+      "timestamp": "2025-10-06 02:26:35"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_win",
+      "amount": 0.27,
+      "details": "high_low - Выпало: 6 (БОЛЬШЕ)",
+      "timestamp": "2025-10-06 02:26:42"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_win",
+      "amount": 0.27,
+      "details": "high_low - Выпало: 6 (БОЛЬШЕ)",
+      "timestamp": "2025-10-06 02:26:55"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_win",
+      "amount": 0.27,
+      "details": "high_low - Выпало: 6 (БОЛЬШЕ)",
+      "timestamp": "2025-10-06 02:27:05"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_win",
+      "amount": 0.27,
+      "details": "high_low - Выпало: 4 (БОЛЬШЕ)",
+      "timestamp": "2025-10-06 02:27:05"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.15,
+      "details": "high_low - Выпало: 1 (МЕНЬШЕ)",
+      "timestamp": "2025-10-06 02:27:12"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_win",
+      "amount": 1.46,
+      "details": "even_odd - Выпало: 5 (НЕЧЕТ)",
+      "timestamp": "2025-10-06 02:27:51"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_win",
+      "amount": 1.46,
+      "details": "even_odd - Выпало: 3 (НЕЧЕТ)",
+      "timestamp": "2025-10-06 02:28:10"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.81,
+      "details": "even_odd - Выпало: 2 (ЧЕТ)",
+      "timestamp": "2025-10-06 02:28:23"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.81,
+      "details": "even_odd - Выпало: 6 (ЧЕТ)",
+      "timestamp": "2025-10-06 02:28:24"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.49,
+      "details": "darts - Результат: 5",
+      "timestamp": "2025-10-06 02:29:01"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.3,
+      "details": "basketball - Результат: 2 (ПРОМАХ ❌)",
+      "timestamp": "2025-10-06 02:29:30"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.3,
+      "details": "basketball - Результат: 3 (ПРОМАХ ❌)",
+      "timestamp": "2025-10-06 02:29:55"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.3,
+      "details": "basketball - Результат: 5 (ПРОМАХ ❌)",
+      "timestamp": "2025-10-06 02:30:05"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.3,
+      "details": "coin - Выпало: РЕШКА",
+      "timestamp": "2025-10-06 02:32:14"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.3,
+      "details": "slots - Результат: 8",
+      "timestamp": "2025-10-06 02:33:41"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.3,
+      "details": "slots - Результат: 63",
+      "timestamp": "2025-10-06 02:33:50"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "withdraw",
+      "amount": 0.3,
+      "details": "Ожидает обработки",
+      "timestamp": "2025-10-06 02:45:31"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.3,
+      "details": "even_odd - Выпало: 4 (ЧЕТ)",
+      "timestamp": "2025-10-06 02:45:50"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_win",
+      "amount": 0.54,
+      "details": "even_odd - Выпало: 2 (ЧЕТ)",
+      "timestamp": "2025-10-06 02:45:57"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_win",
+      "amount": 0.54,
+      "details": "even_odd - Выпало: 6 (ЧЕТ)",
+      "timestamp": "2025-10-06 02:46:04"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.3,
+      "details": "even_odd - Выпало: 3 (НЕЧЕТ)",
+      "timestamp": "2025-10-06 02:46:11"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.3,
+      "details": "even_odd - Выпало: 2 (ЧЕТ)",
+      "timestamp": "2025-10-06 02:46:18"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_win",
+      "amount": 0.86,
+      "details": "high_low - Выпало: 3 (МЕНЬШЕ)",
+      "timestamp": "2025-10-06 02:46:40"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.86,
+      "details": "darts - Результат: 3/6",
+      "timestamp": "2025-10-06 02:48:03"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.3,
+      "details": "basketball - Результат: 2/5",
+      "timestamp": "2025-10-06 02:48:18"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.3,
+      "details": "basketball - Результат: 1/5",
+      "timestamp": "2025-10-06 02:49:23"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_win",
+      "amount": 0.51,
+      "details": "basketball - Результат: 4/5",
+      "timestamp": "2025-10-06 02:49:36"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.3,
+      "details": "slots - Повезет в следующий раз!",
+      "timestamp": "2025-10-06 02:49:49"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "withdraw",
+      "amount": 0.3,
+      "details": "Ожидает обработки",
+      "timestamp": "2025-10-06 03:26:28"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_win",
+      "amount": 0.27,
+      "details": "even_odd - Выпало: 2 (ЧЕТ)",
+      "timestamp": "2025-10-06 03:27:05"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.15,
+      "details": "even_odd - Выпало: 4 (ЧЕТ)",
+      "timestamp": "2025-10-06 03:27:12"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_win",
+      "amount": 0.27,
+      "details": "even_odd - Выпало: 6 (ЧЕТ)",
+      "timestamp": "2025-10-06 03:27:20"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.15,
+      "details": "even_odd - Выпало: 5 (НЕЧЕТ)",
+      "timestamp": "2025-10-06 03:27:26"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_win",
+      "amount": 0.27,
+      "details": "high_low - Выпало: 5 (БОЛЬШЕ)",
+      "timestamp": "2025-10-06 03:27:40"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.05,
+      "details": "darts - Результат: 3",
+      "timestamp": "2025-10-06 03:27:56"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_win",
+      "amount": 0.26,
+      "details": "basketball - Результат: 4 (ПОПАЛ В КОРЗИНУ! 🏀)",
+      "timestamp": "2025-10-06 03:28:16"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_win",
+      "amount": 0.26,
+      "details": "basketball - Результат: 4 (ПОПАЛ В КОРЗИНУ! 🏀)",
+      "timestamp": "2025-10-06 03:28:41"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.15,
+      "details": "basketball - Результат: 2 (ПРОМАХ ❌)",
+      "timestamp": "2025-10-06 03:28:54"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.15,
+      "details": "slots - Результат: 23",
+      "timestamp": "2025-10-06 03:29:06"
+    },
+    {
+      "user_id": 3,
+      "username": "Naric10",
+      "type": "admin_add",
+      "amount": 5.0,
+      "details": "Админская накрутка",
+      "timestamp": "2025-10-06 03:38:47"
+    },
+    {
+      "user_id": 3,
+      "username": "Naric10",
+      "type": "withdraw",
+      "amount": 0.3,
+      "details": "Ожидает обработки",
+      "timestamp": "2025-10-06 03:39:25"
+    },
+    {
+      "user_id": 3,
+      "username": "Naric10",
+      "type": "game_win",
+      "amount": 0.54,
+      "details": "even_odd - Выпало: 2 (ЧЕТ)",
+      "timestamp": "2025-10-06 03:40:05"
+    },
+    {
+      "user_id": 3,
+      "username": "Naric10",
+      "type": "game_lose",
+      "amount": -0.03,
+      "details": "basketball - Результат: 2 (ПРОМАХ ❌)",
+      "timestamp": "2025-10-06 03:40:37"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_win",
+      "amount": 1.67,
+      "details": "even_odd - Выпало: 5 (НЕЧЕТ)",
+      "timestamp": "2025-10-06 03:42:46"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -1.67,
+      "details": "darts - Результат: 1",
+      "timestamp": "2025-10-06 03:43:10"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "deposit",
+      "amount": 0.02,
+      "details": "CryptoBot invoice: 34950479",
+      "timestamp": "2025-10-06 03:43:54"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "type": "game_lose",
+      "amount": -0.02,
+      "details": "basketball - Результат: 1 (ПРОМАХ ❌)",
+      "timestamp": "2025-10-06 03:44:18"
+    }
+  ]
+}
