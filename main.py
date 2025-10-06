@@ -179,6 +179,30 @@ def save_user_balance_snapshot():
     logging.info(f"Сохранены балансы {len(balances)} пользователей")
 
 
+def update_db_schema():
+    """Обновляет схему базы данных если нужно"""
+    conn = sqlite3.connect('casino.db', check_same_thread=False)
+    cursor = conn.cursor()
+    
+    try:
+        # Проверяем есть ли колонка accepted_terms
+        cursor.execute("PRAGMA table_info(users)")
+        columns = [column[1] for column in cursor.fetchall()]
+        
+        if 'accepted_terms' not in columns:
+            print("🔄 Добавляем колонку accepted_terms в таблицу users...")
+            cursor.execute('ALTER TABLE users ADD COLUMN accepted_terms BOOLEAN DEFAULT FALSE')
+            conn.commit()
+            print("✅ Колонка accepted_terms добавлена")
+        else:
+            print("✅ Колонка accepted_terms уже существует")
+            
+    except Exception as e:
+        print(f"❌ Ошибка обновления БД: {e}")
+    finally:
+        conn.close()
+
+
 def init_db():
     if os.path.exists('casino.db'):
         logging.info("База данных casino.db уже существует")
@@ -1232,6 +1256,10 @@ if __name__ == "__main__":
     try:
         init_db()
         print("✅ База данных инициализирована")
+        
+        # ОБНОВЛЯЕМ СХЕМУ БД
+        update_db_schema()
+        
     except Exception as e:
         print(f"⚠️ Ошибка БД: {e}")
 
@@ -1240,7 +1268,7 @@ if __name__ == "__main__":
         try:
             print("🔄 Запуск телеграм бота...")
             
-            # Тестируем подключение к Telegram API
+            # Тестируем подключение
             bot_info = bot.get_me()
             print(f"✅ Бот подключен: @{bot_info.username}")
             
@@ -1248,6 +1276,8 @@ if __name__ == "__main__":
             bot.polling(none_stop=True, timeout=60)
             
         except Exception as e:
-            print(f"❌ КРИТИЧЕСКАЯ ОШИБКА: {e}")
+            print(f"❌ ОШИБКА: {str(e)}")
+            import traceback
+            print(f"🔍 ДЕТАЛИ: {traceback.format_exc()}")
             print("🔄 Перезапуск через 10 секунд...")
             time.sleep(10)
