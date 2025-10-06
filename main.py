@@ -679,8 +679,12 @@ def process_game_result(user_id, tg_id, username, bet_amount, game_type, result,
 
         save_transaction(user_id, username, 'game_win', win_amount, f"{game_type} - {result}")
 
+        # Сообщение о победе пользователю
+        win_message = f"🎉 ПОБЕДА! 🎉\n\n💰 Ваш выигрыш: ${win_amount:.2f}\n💎 Начислено на баланс\n\n{result}"
+        bot.send_message(tg_id, win_message)
+
         try:
-            win_channel_text = f"🎉 ПОЗДРАВЛЯЮ С ПОБЕДОЙ! 🎉\n\n💰 Вы выиграли ${win_amount:.2f}\n💎 Ваши монеты начислены вам в бота"
+            win_channel_text = f"🎉 ПОЗДРАВЛЯЮ С ПОБЕДОЙ! 🎉\n\n👤 {username}\n💰 Выигрыш: ${win_amount:.2f}\n🎮 Игра: {game_type}\n\n{result}"
             keyboard = InlineKeyboardMarkup()
             buttons = [
                 InlineKeyboardButton("🎯 СДЕЛАТЬ СТАВКУ", url="https://t.me/SonCasinoBet_bot?start=play")
@@ -692,19 +696,18 @@ def process_game_result(user_id, tg_id, username, bet_amount, game_type, result,
         except Exception as e:
             print(f"Ошибка отправки победы в канал: {e}")
 
-        bot.send_message(
-            tg_id,
-            f"🎉 ПОЗДРАВЛЯЮ ВЫ ПОБЕДИЛИ! 🎉\n\n💰 Выигрыш: ${win_amount:.2f}\n💎 Начислено на ваш баланс"
-        )
-
     else:
         save_game_result(user_id, game_type, bet_amount, 0, "lose")
         save_game_stats(user_id, username, game_type, bet_amount, 0, "lose")
 
         save_transaction(user_id, username, 'game_lose', -bet_amount, f"{game_type} - {result}")
 
+        # Сообщение о проигрыше пользователю
+        lose_message = f"💔 ВЫ ПРОИГРАЛИ 💔\n\n💰 Потеряно: ${bet_amount:.2f}\n\n{result}\n\n🎯 Попробуйте еще раз - удача на вашей стороне! 🍀"
+        bot.send_message(tg_id, lose_message)
+
         try:
-            lose_channel_text = "💔 К сожалению, вы проиграли, но не расстраивайся! 💔\n\n🎯 Поставь еще - удача на твоей стороне! 🍀"
+            lose_channel_text = f"💔 К СОЖАЛЕНИЮ, ВЫ ПРОИГРАЛИ 💔\n\n👤 {username}\n💰 Потеряно: ${bet_amount:.2f}\n🎮 Игра: {game_type}\n\n🎯 Попробуйте еще раз - удача на вашей стороне! 🍀"
             keyboard = InlineKeyboardMarkup()
             buttons = [
                 InlineKeyboardButton("🎯 СДЕЛАТЬ СТАВКУ", url="https://t.me/SonCasinoBet_bot?start=play")
@@ -715,11 +718,6 @@ def process_game_result(user_id, tg_id, username, bet_amount, game_type, result,
                 bot.send_photo(CHANNEL_ID, photo, caption=lose_channel_text, reply_markup=keyboard)
         except Exception as e:
             print(f"Ошибка отправки проигрыша в канал: {e}")
-
-        bot.send_message(
-            tg_id,
-            f"💔 К сожалению, вы проиграли ${bet_amount:.2f} 💔\n\n🎯 Попробуйте еще раз - удача на вашей стороне! 🍀"
-        )
 
 
 def process_even_odd_game(user_id, tg_id, username, bet_amount, choice):
@@ -989,11 +987,17 @@ def handle_callback(call):
     chat_id = call.message.chat.id
 
     if call.data == "decline":
-        bot.edit_message_caption(
-            chat_id=chat_id,
-            message_id=call.message.message_id,
-            caption="❌ Вы отказались от пользовательского соглашения\n\n🚫 Доступ запрещен\n\n📝 Введите /start если готовы передумать"
-        )
+        try:
+            bot.edit_message_caption(
+                chat_id=chat_id,
+                message_id=call.message.message_id,
+                caption="❌ Вы отказались от пользовательского соглашения\n\n🚫 Доступ запрещен\n\n📝 Введите /start если готовы передумать"
+            )
+        except:
+            bot.send_message(
+                chat_id,
+                "❌ Вы отказались от пользовательского соглашения\n\n🚫 Доступ запрещен\n\n📝 Введите /start если готовы передумать"
+            )
 
     elif call.data == "accept":
         user_status[chat_id] = True
