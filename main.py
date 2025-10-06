@@ -911,17 +911,18 @@ def send_welcome(message):
         show_main_menu(message)
         return
 
+    # Создаем keyboard ДО try-except блока
+    keyboard = InlineKeyboardMarkup(row_width=2)
+    buttons = [
+        InlineKeyboardButton("📄 Пользовательское соглашение",
+                             url="https://telegra.ph/Son-Casino--Polzovatelskoe-soglashenie-10-04"),
+        InlineKeyboardButton("❌ Отказаться", callback_data="decline"),
+        InlineKeyboardButton("✅ Принять", callback_data="accept")
+    ]
+    keyboard.add(*buttons)
+
     try:
         with open(PHOTO_PATH, 'rb') as photo:
-            keyboard = InlineKeyboardMarkup(row_width=2)
-            buttons = [
-                InlineKeyboardButton("📄 Пользовательское соглашение",
-                                     url="https://telegra.ph/Son-Casino--Polzovatelskoe-soglashenie-10-04"),
-                InlineKeyboardButton("❌ Отказаться", callback_data="decline"),
-                InlineKeyboardButton("✅ Принять", callback_data="accept")
-            ]
-            keyboard.add(*buttons)
-
             bot.send_photo(
                 chat_id,
                 photo,
@@ -1102,13 +1103,6 @@ def handle_callback(call):
             chat_id,
             call.from_user.username or "Игрок",
             1.00  # Стандартная ставка $1
-        )
-        bet_amount = float(call.data.split("_")[3])
-        process_slots_game(
-            get_or_create_user(chat_id, call.from_user.username),
-            chat_id,
-            call.from_user.username or "Игрок",
-            bet_amount
         )
 
 
