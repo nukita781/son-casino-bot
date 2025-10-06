@@ -1,0 +1,634 @@
+{
+  "games": [
+    {
+      "user_id": 1,
+      "username": "Andrei656757",
+      "game_type": "even_odd",
+      "bet_amount": 0.03,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 01:55:34"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 01:56:33"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 01:58:19"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 01:58:32"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 01:58:42"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.3,
+      "win_amount": 0.54,
+      "result": "win",
+      "timestamp": "2025-10-06 01:58:55"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.3,
+      "win_amount": 0.54,
+      "result": "win",
+      "timestamp": "2025-10-06 01:59:09"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "high_low",
+      "bet_amount": 1.0,
+      "win_amount": 1.8,
+      "result": "win",
+      "timestamp": "2025-10-06 01:59:31"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "high_low",
+      "bet_amount": 1.0,
+      "win_amount": 1.8,
+      "result": "win",
+      "timestamp": "2025-10-06 01:59:40"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "high_low",
+      "bet_amount": 1.0,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 01:59:48"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "darts",
+      "bet_amount": 1.0,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:00:05"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "darts",
+      "bet_amount": 1.0,
+      "win_amount": 3.0,
+      "result": "win",
+      "timestamp": "2025-10-06 02:00:19"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "darts",
+      "bet_amount": 2.0,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:01:28"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "basketball",
+      "bet_amount": 1.0,
+      "win_amount": 1.7,
+      "result": "win",
+      "timestamp": "2025-10-06 02:01:49"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "slots",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:02:19"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "slots",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:02:30"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "slots",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:02:40"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "slots",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:02:54"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "slots",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:03:07"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "slots",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:03:15"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 2.48,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:03:47"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 15.0,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:04:53"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "basketball",
+      "bet_amount": 30.0,
+      "win_amount": 51.0,
+      "result": "win",
+      "timestamp": "2025-10-06 02:06:21"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 30.0,
+      "win_amount": 54.0,
+      "result": "win",
+      "timestamp": "2025-10-06 02:07:00"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.15,
+      "win_amount": 0.27,
+      "result": "win",
+      "timestamp": "2025-10-06 02:26:02"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "high_low",
+      "bet_amount": 0.15,
+      "win_amount": 0.27,
+      "result": "win",
+      "timestamp": "2025-10-06 02:26:18"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "high_low",
+      "bet_amount": 0.15,
+      "win_amount": 0.27,
+      "result": "win",
+      "timestamp": "2025-10-06 02:26:27"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "high_low",
+      "bet_amount": 0.15,
+      "win_amount": 0.27,
+      "result": "win",
+      "timestamp": "2025-10-06 02:26:35"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "high_low",
+      "bet_amount": 0.15,
+      "win_amount": 0.27,
+      "result": "win",
+      "timestamp": "2025-10-06 02:26:42"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "high_low",
+      "bet_amount": 0.15,
+      "win_amount": 0.27,
+      "result": "win",
+      "timestamp": "2025-10-06 02:26:55"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "high_low",
+      "bet_amount": 0.15,
+      "win_amount": 0.27,
+      "result": "win",
+      "timestamp": "2025-10-06 02:27:05"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "high_low",
+      "bet_amount": 0.15,
+      "win_amount": 0.27,
+      "result": "win",
+      "timestamp": "2025-10-06 02:27:05"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "high_low",
+      "bet_amount": 0.15,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:27:12"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.81,
+      "win_amount": 1.46,
+      "result": "win",
+      "timestamp": "2025-10-06 02:27:51"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.81,
+      "win_amount": 1.46,
+      "result": "win",
+      "timestamp": "2025-10-06 02:28:10"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.81,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:28:23"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.81,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:28:24"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "darts",
+      "bet_amount": 0.49,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:29:01"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "basketball",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:29:30"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "basketball",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:29:55"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "basketball",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:30:05"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "coin",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:32:14"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "slots",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:33:41"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "slots",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:33:50"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:45:50"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.3,
+      "win_amount": 0.54,
+      "result": "win",
+      "timestamp": "2025-10-06 02:45:57"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.3,
+      "win_amount": 0.54,
+      "result": "win",
+      "timestamp": "2025-10-06 02:46:04"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:46:11"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:46:18"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "high_low",
+      "bet_amount": 0.48,
+      "win_amount": 0.86,
+      "result": "win",
+      "timestamp": "2025-10-06 02:46:40"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "darts",
+      "bet_amount": 0.86,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:48:03"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "basketball",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:48:18"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "basketball",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:49:23"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "basketball",
+      "bet_amount": 0.3,
+      "win_amount": 0.51,
+      "result": "win",
+      "timestamp": "2025-10-06 02:49:36"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "slots",
+      "bet_amount": 0.3,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 02:49:49"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.15,
+      "win_amount": 0.27,
+      "result": "win",
+      "timestamp": "2025-10-06 03:27:05"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.15,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 03:27:12"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.15,
+      "win_amount": 0.27,
+      "result": "win",
+      "timestamp": "2025-10-06 03:27:20"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.15,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 03:27:26"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "high_low",
+      "bet_amount": 0.15,
+      "win_amount": 0.27,
+      "result": "win",
+      "timestamp": "2025-10-06 03:27:40"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "darts",
+      "bet_amount": 0.05,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 03:27:56"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "basketball",
+      "bet_amount": 0.15,
+      "win_amount": 0.26,
+      "result": "win",
+      "timestamp": "2025-10-06 03:28:16"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "basketball",
+      "bet_amount": 0.15,
+      "win_amount": 0.26,
+      "result": "win",
+      "timestamp": "2025-10-06 03:28:41"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "basketball",
+      "bet_amount": 0.15,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 03:28:54"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "slots",
+      "bet_amount": 0.15,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 03:29:06"
+    },
+    {
+      "user_id": 3,
+      "username": "Naric10",
+      "game_type": "even_odd",
+      "bet_amount": 0.3,
+      "win_amount": 0.54,
+      "result": "win",
+      "timestamp": "2025-10-06 03:40:05"
+    },
+    {
+      "user_id": 3,
+      "username": "Naric10",
+      "game_type": "basketball",
+      "bet_amount": 0.03,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 03:40:37"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "even_odd",
+      "bet_amount": 0.93,
+      "win_amount": 1.67,
+      "result": "win",
+      "timestamp": "2025-10-06 03:42:46"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "darts",
+      "bet_amount": 1.67,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 03:43:10"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "game_type": "basketball",
+      "bet_amount": 0.02,
+      "win_amount": 0,
+      "result": "lose",
+      "timestamp": "2025-10-06 03:44:18"
+    }
+  ]
+}

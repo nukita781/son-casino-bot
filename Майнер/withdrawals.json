@@ -1,0 +1,39 @@
+{
+  "withdrawals": [
+    {
+      "user_id": 1,
+      "username": "CAS_Dis",
+      "amount": 0.3,
+      "status": "pending",
+      "timestamp": "2025-10-06 01:55:57"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "amount": 5045.0,
+      "status": "pending",
+      "timestamp": "2025-10-06 02:07:39"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "amount": 0.3,
+      "status": "pending",
+      "timestamp": "2025-10-06 02:45:31"
+    },
+    {
+      "user_id": 2,
+      "username": "CAS_Dis",
+      "amount": 0.3,
+      "status": "pending",
+      "timestamp": "2025-10-06 03:26:28"
+    },
+    {
+      "user_id": 3,
+      "username": "Naric10",
+      "amount": 0.3,
+      "status": "pending",
+      "timestamp": "2025-10-06 03:39:25"
+    }
+  ]
+}
